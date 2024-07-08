@@ -1,9 +1,9 @@
-package ua.pages;
+package ui.pages;
 
 import org.openqa.selenium.support.PageFactory;
-import ua.drivers.DriverManager;
-import ua.helper.DropDownHelper;
-import ua.helper.WebElementActions;
+import ui.drivers.DriverManager;
+import ui.helper.DropDownHelper;
+import ui.helper.WebElementActions;
 
 
 public abstract class BasePage {

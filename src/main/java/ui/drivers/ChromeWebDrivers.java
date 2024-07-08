@@ -1,4 +1,4 @@
-package ua.drivers;
+package ui.drivers;
 
 import java.time.Duration;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import static ua.utils.ConfigReader.getValue;
+import static ui.utils.ConfigReader.getValue;
 
 
 public class ChromeWebDrivers {

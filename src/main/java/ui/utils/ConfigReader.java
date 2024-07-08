@@ -1,4 +1,4 @@
-package ua.utils;
+package ui.utils;
 
 
 import java.io.FileInputStream;

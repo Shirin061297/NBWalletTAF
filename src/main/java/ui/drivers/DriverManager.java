@@ -1,6 +1,6 @@
-package ua.drivers;
+package ui.drivers;
 import org.openqa.selenium.WebDriver;
-import ua.utils.ConfigReader;
+import ui.utils.ConfigReader;
 
 public class DriverManager {
 
@@ -36,8 +36,8 @@ public class DriverManager {
     public static void closeDriver(){
         try{
             if (driver != null){
-                driver.close();
-                driver.quit();
+//                driver.close();
+//                driver.quit();
                 driver=null;
             }
         }catch (Exception e){

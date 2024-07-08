@@ -1,11 +1,11 @@
-package ua.helper;
+package ui.helper;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import ua.drivers.DriverManager;
+import ui.drivers.DriverManager;
 
 import java.time.Duration;
 

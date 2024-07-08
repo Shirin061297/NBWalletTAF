@@ -1,4 +1,4 @@
-package ua.entites;
+package ui.entites;
 
 
 

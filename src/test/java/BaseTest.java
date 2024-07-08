@@ -1,11 +1,12 @@
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import ua.drivers.DriverManager;
-import ua.helper.AlertHelper;
-import ua.helper.BrowserHelper;
-import ua.helper.WebElementActions;
-import ua.utils.RandomUtils;
+import ui.drivers.DriverManager;
+import ui.helper.AlertHelper;
+import ui.helper.BrowserHelper;
+import ui.helper.WebElementActions;
+import ui.pages.WebTablePage;
+import ui.utils.RandomUtils;
 
 public class BaseTest {
 
@@ -17,6 +18,7 @@ public class BaseTest {
     protected AlertHelper alertHelper;
     // protected DemoQAPages demoQAPages;
     protected BrowserHelper browserHelper;
+    protected WebTablePage webTablePage;
 
 
     @BeforeClass(alwaysRun = true)
@@ -26,6 +28,7 @@ public class BaseTest {
         webElementActions = new WebElementActions();
         alertHelper = new AlertHelper(driver);
         browserHelper = new BrowserHelper(driver);
+        webTablePage = new WebTablePage();
     }
 
     @AfterClass(alwaysRun = true)

@@ -1,17 +1,12 @@
-package ua.helper;
+package ui.helper;
 import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WrapsDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeClass;
-import ua.drivers.DriverManager;
+import ui.drivers.DriverManager;
 
-import javax.lang.model.element.Element;
-import javax.swing.*;
 import java.time.Duration;
 import java.util.List;
 import java.util.Random;
